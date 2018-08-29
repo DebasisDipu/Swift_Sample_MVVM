@@ -18,9 +18,12 @@ struct App {
         // Each build configuration is associated with a project Scheme.
         //
         // Usage: Select the scheme to select the environment
-        static var key: String { return "AppEnvironment" }
+        static var key: String { return "App_Environment" }
         case development, production
     }
+    
+//    let server_url = Environment().configuration(PlistKey.ServerURL)
+
     
     static let environment = Environment(rawValue: (Bundle.main.object(forInfoDictionaryKey: Environment.key) as! String).lowercased())!
     

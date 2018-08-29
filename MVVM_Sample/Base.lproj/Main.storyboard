@@ -48,6 +48,9 @@
                                         <state key="normal" title="Button">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="DidTapLoginButton:" destination="x5Q-8h-hvf" eventType="touchUpInside" id="kDK-DV-FF2"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -69,6 +72,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="07g-ms-ixF"/>
                     </view>
+                    <connections>
+                        <outlet property="emailTxtField" destination="OcA-aZ-qmB" id="h4h-rb-n5g"/>
+                        <outlet property="passwordTextField" destination="2Wh-mg-Ula" id="agp-Zt-3aX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W0D-Jv-S3v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

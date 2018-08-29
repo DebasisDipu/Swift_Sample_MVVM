@@ -67,21 +67,35 @@ class AuthenticationManager{
     //    }
     
     
-    func login(email: String, password: String, completion: @escaping (AppError?, User?) -> Void) {
+    func login(email: String, password: String, completion: @escaping (AppError?) -> Void) {
         
-        authenticationService.requestToken(email: email, password: password) { error, user, accessToken, refreshToken, expiresIn in
-            if let err = error {
-                return completion(.apiError(err), nil)
-            }
+
+        
+        authenticationService.logIn(name: email, password: password) {
+            error in
+                if let err = error{
+                    return completion(.apiError(err))
+                }
             
-            //            self.authenticatedUser = user
-            //            self.accessToken = accessToken
-            //            self.refreshToken = refreshToken
-            //            self.expiresIn = expiresIn
-            //
-            //            self.postNotification(.UserLoggedIn)
-            completion(nil, self.authenticatedUser)
+            
+            completion(nil)
+            
+            
         }
+        
+//        authenticationService.requestToken(email: email, password: password) { error, user, accessToken, refreshToken, expiresIn in
+//            if let err = error {
+//                return completion(.apiError(err), nil)
+//            }
+//
+//            //            self.authenticatedUser = user
+//            //            self.accessToken = accessToken
+//            //            self.refreshToken = refreshToken
+//            //            self.expiresIn = expiresIn
+//            //
+//            //            self.postNotification(.UserLoggedIn)
+//            completion(nil, self.authenticatedUser)
+//        }
     }
     
     

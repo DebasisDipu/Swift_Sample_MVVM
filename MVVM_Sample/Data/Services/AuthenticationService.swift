@@ -13,10 +13,10 @@ class AuthenticationService: APIService {
     
     func logIn(name: String, password: String, completion: @escaping (APIError?) -> Void) {
         
-        let endpoint = "/auth/signup"
+        let endpoint = ""
         
         var parameters: APIRequestParameters = [
-            "name": name,
+            "email": name,
             "password": password,
             ]
         
@@ -91,9 +91,9 @@ class AuthenticationService: APIService {
         let configuration = App.apiConfiguration
         
         var params = parameters
-        params["client_id"] = configuration.clientIdentifier
-        params["client_secret"] = configuration.clientSecret
-        
+//        params["client_id"] = configuration.clientIdentifier
+//        params["client_secret"] = configuration.clientSecret
+//        
         return params
     }
     

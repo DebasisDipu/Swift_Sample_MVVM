@@ -17,11 +17,11 @@ enum APIConfiguration {
     
     var baseURL: URL! {
         if (localhost) {
-            return URL(string: "http://localhost:8081/v1")
+            return URL(string: "https://api-beta.truefoodies.com/api/Ftfo_users")
         }
         
         switch self {
-        case .development: return URL(string: "https://thecut-development.us-east-1.elasticbeanstalk.com/v1")
+        case .development: return URL(string: "https://api-beta.truefoodies.com/api/Ftfo_users/login?include=user")
         case .production: return URL(string: "https://thecut-production.us-east-1.elasticbeanstalk.com/v1")
         case .custom(let url, _, _): return URL(string: url)
         }
