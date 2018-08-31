@@ -13,7 +13,7 @@ class AuthenticationService: APIService {
     
     func logIn(name: String, password: String, completion: @escaping (APIError?) -> Void) {
         
-        let endpoint = ""
+        let endpoint = "/login?include=user"
         
         var parameters: APIRequestParameters = [
             "email": name,

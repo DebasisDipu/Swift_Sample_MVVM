@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>App_Environment</key>
-	<string>Development</string>
+	<string>$(NEW_SETTING)</string>
 	<key>Backend Url</key>
 	<string>$(BACKEND_URL)</string>
 	<key>CFBundleDevelopmentRegion</key>

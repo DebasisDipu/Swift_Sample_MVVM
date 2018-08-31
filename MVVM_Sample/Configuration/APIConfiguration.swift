@@ -21,7 +21,7 @@ enum APIConfiguration {
         }
         
         switch self {
-        case .development: return URL(string: "https://api-beta.truefoodies.com/api/Ftfo_users/login?include=user")
+        case .development: return URL(string: "https://api-beta.truefoodies.com/api/Ftfo_users")
         case .production: return URL(string: "https://thecut-production.us-east-1.elasticbeanstalk.com/v1")
         case .custom(let url, _, _): return URL(string: url)
         }
@@ -47,7 +47,10 @@ enum APIConfiguration {
     
     var localhost: Bool { return false }
     
-    func URLForEndpoint(_ endpoint: String) -> URL {
-        return baseURL.appendingPathComponent(endpoint)
+    func URLForEndpoint(_ endpoint: String?) -> String {
+        
+        return baseURL.appendingPathComponent(endpoint ?? "").absoluteString.removingPercentEncoding!
+        
+//        return  baseURL.appendingPathComponent(endpoint).absoluteString
     }
 }

@@ -44,8 +44,11 @@ class APIClient {
         parameters: APIRequestParameters? = nil,
         completion: @escaping (APIResponse) -> Void)
     {
-        let url = configuration.URLForEndpoint(endpoint)
-        request(authorize: authorize, reauthorize: reauthorize, method: method, url: url, parameters: parameters, completion: completion)
+        
+        if let url = URL(string: configuration.URLForEndpoint(endpoint)){
+            request(authorize: authorize, reauthorize: reauthorize, method: method, url: url, parameters: parameters, completion: completion)
+        }
+ 
     }
     
     func request(
@@ -73,7 +76,9 @@ class APIClient {
         //        logd("\(request)")
         
         sessionManager.request(request.url, method: request.method, parameters: request.parameters, encoding: request.encoding, headers: request.headers).responseJSON { response in
+            
             if (self.needsReauthorization(request: request, response: response)) {
+                
                 return self.authenticationProvider.reauthorize { success in
                     if (!success) {
                         self.authenticationProvider.unauthorize()
