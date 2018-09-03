@@ -67,18 +67,18 @@ class AuthenticationManager{
     //    }
     
     
-    func login(email: String, password: String, completion: @escaping (AppError?) -> Void) {
+    func login(email: String, password: String, completion: @escaping (AppError?, User?) -> Void) {
         
 
         
         authenticationService.logIn(name: email, password: password) {
             error in
                 if let err = error{
-                    return completion(.apiError(err))
+                    return completion(.apiError(err),nil)
                 }
+                
             
-            
-            completion(nil)
+            completion(nil, nil)
             
             
         }

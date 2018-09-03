@@ -15,14 +15,14 @@ class User : APIModel, Equatable {
     
     
     private(set) var id: String
-    private(set) var name: String
-    private(set) var email: String
+    private(set) var ttl: Int
+    private(set) var userId: String
     
     
     init(json : JSON) {
-        id = json["_id"].stringValue
-        name = json["name"].stringValue
-        email = json["email"].stringValue
+        id = json["id"].stringValue
+        ttl = json["ttl"].intValue
+        userId = json["userId"].stringValue
     }
     
     
