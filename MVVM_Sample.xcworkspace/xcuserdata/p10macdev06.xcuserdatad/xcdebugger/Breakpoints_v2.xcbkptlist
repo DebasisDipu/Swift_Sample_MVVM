@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/ViewCotroller/ViewController.swift"
-            timestampString = "557662935.69025"
+            timestampString = "557748961.6982059"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "25"
@@ -22,11 +22,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.69077"
+            timestampString = "557748961.6985559"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "48"
@@ -42,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Data/Services/AuthenticationService.swift"
-            timestampString = "557662935.6911989"
+            timestampString = "557748961.698889"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "26"
@@ -58,7 +58,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Data/Services/AuthenticationService.swift"
-            timestampString = "557662935.692296"
+            timestampString = "557748961.699158"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "28"
@@ -74,11 +74,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Data/Services/AuthenticationService.swift"
-            timestampString = "557662935.693037"
+            timestampString = "557748961.699286"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "logIn(name:password:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -90,7 +90,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/ViewCotroller/ViewController.swift"
-            timestampString = "557662935.693499"
+            timestampString = "557748961.699406"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "50"
@@ -136,7 +136,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/App/App.swift"
-            timestampString = "557662935.693563"
+            timestampString = "557748961.6994621"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "21"
@@ -152,7 +152,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/App/App.swift"
-            timestampString = "557662935.69384"
+            timestampString = "557748961.699738"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "22"
@@ -168,7 +168,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/App/App.swift"
-            timestampString = "557662935.693931"
+            timestampString = "557748961.699831"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "29"
@@ -184,7 +184,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/App/App.swift"
-            timestampString = "557662935.694146"
+            timestampString = "557748961.700088"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "42"
@@ -200,7 +200,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/App/App.swift"
-            timestampString = "557662935.694234"
+            timestampString = "557748961.7001981"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "41"
@@ -216,11 +216,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Managers/AuthenticationManager.swift"
-            timestampString = "557662935.69432"
+            timestampString = "557748961.700291"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "74"
-            endingLineNumber = "74"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
             landmarkName = "login(email:password:completion:)"
             landmarkType = "7">
             <Locations>
@@ -228,31 +228,31 @@
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "MVVM_Sample.AuthenticationManager.login(email: Swift.String, password: Swift.String, completion: (Swift.Optional&lt;MVVM_Sample.AppError&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "MVVM_Sample.AuthenticationManager.login(email: Swift.String, password: Swift.String, completion: (Swift.Optional&lt;MVVM_Sample.AppError&gt;, Swift.Optional&lt;MVVM_Sample.User&gt;) -&gt; ()) -&gt; ()"
                   moduleName = "MVVM_Sample"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/p10macdev06/Documents/MVVM_Sample/MVVM_Sample/Managers/AuthenticationManager.swift"
-                  timestampString = "557662937.199693"
+                  timestampString = "557748962.103093"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "74"
-                  endingLineNumber = "74"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
                   offsetFromSymbolStart = "62">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;MVVM_Sample.APIError&gt;) -&gt; () in MVVM_Sample.AuthenticationManager.login(email: Swift.String, password: Swift.String, completion: (Swift.Optional&lt;MVVM_Sample.AppError&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "closure #1 (Swift.Optional&lt;MVVM_Sample.APIError&gt;, Swift.Optional&lt;MVVM_Sample.User&gt;) -&gt; () in MVVM_Sample.AuthenticationManager.login(email: Swift.String, password: Swift.String, completion: (Swift.Optional&lt;MVVM_Sample.AppError&gt;, Swift.Optional&lt;MVVM_Sample.User&gt;) -&gt; ()) -&gt; ()"
                   moduleName = "MVVM_Sample"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/p10macdev06/Documents/MVVM_Sample/MVVM_Sample/Managers/AuthenticationManager.swift"
-                  timestampString = "557662937.201738"
+                  timestampString = "557748962.1051"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "76"
-                  endingLineNumber = "76"
-                  offsetFromSymbolStart = "41">
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "55">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -264,7 +264,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Data/Services/AuthenticationService.swift"
-            timestampString = "557662935.694545"
+            timestampString = "557748961.7009619"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "25"
@@ -276,11 +276,11 @@
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "MVVM_Sample.AuthenticationService.logIn(name: Swift.String, password: Swift.String, completion: (Swift.Optional&lt;MVVM_Sample.APIError&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "MVVM_Sample.AuthenticationService.logIn(name: Swift.String, password: Swift.String, completion: (Swift.Optional&lt;MVVM_Sample.APIError&gt;, Swift.Optional&lt;MVVM_Sample.User&gt;) -&gt; ()) -&gt; ()"
                   moduleName = "MVVM_Sample"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/p10macdev06/Documents/MVVM_Sample/MVVM_Sample/Data/Services/AuthenticationService.swift"
-                  timestampString = "557662937.206358"
+                  timestampString = "557748962.109751"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "25"
@@ -291,11 +291,11 @@
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (MVVM_Sample.APIResponse) -&gt; () in MVVM_Sample.AuthenticationService.logIn(name: Swift.String, password: Swift.String, completion: (Swift.Optional&lt;MVVM_Sample.APIError&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "closure #1 (MVVM_Sample.APIResponse) -&gt; () in MVVM_Sample.AuthenticationService.logIn(name: Swift.String, password: Swift.String, completion: (Swift.Optional&lt;MVVM_Sample.APIError&gt;, Swift.Optional&lt;MVVM_Sample.User&gt;) -&gt; ()) -&gt; ()"
                   moduleName = "MVVM_Sample"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/p10macdev06/Documents/MVVM_Sample/MVVM_Sample/Data/Services/AuthenticationService.swift"
-                  timestampString = "557662937.208084"
+                  timestampString = "557748962.111968"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "26"
@@ -308,15 +308,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Data/Services/AuthenticationService.swift"
-            timestampString = "557662935.694966"
+            timestampString = "557748961.701086"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "93"
-            endingLineNumber = "93"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
             landmarkName = "addAuthorizationParameters(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -338,7 +338,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.695376"
+            timestampString = "557748961.7012039"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "44"
@@ -354,7 +354,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIConfiguration.swift"
-            timestampString = "557662935.6955431"
+            timestampString = "557748961.7014101"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "55"
@@ -366,11 +366,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.695768"
+            timestampString = "557748961.701649"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "23"
@@ -382,11 +382,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.695917"
+            timestampString = "557748961.70181"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "29"
@@ -398,11 +398,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.6960599"
+            timestampString = "557748961.701966"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "33"
@@ -414,11 +414,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIConfiguration.swift"
-            timestampString = "557662935.6962661"
+            timestampString = "557748961.702143"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "24"
@@ -430,11 +430,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIConfiguration.swift"
-            timestampString = "557662935.696355"
+            timestampString = "557748961.702255"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "20"
@@ -450,11 +450,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Data/Services/AuthenticationService.swift"
-            timestampString = "557662935.696435"
+            timestampString = "557748961.7023439"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
             landmarkName = "logIn(name:password:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -466,7 +466,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.696916"
+            timestampString = "557748961.702456"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "45"
@@ -482,11 +482,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Managers/AuthenticationManager.swift"
-            timestampString = "557662935.69707"
+            timestampString = "557748961.702616"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "81"
-            endingLineNumber = "81"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
             landmarkName = "login(email:password:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -498,7 +498,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/App/App.swift"
-            timestampString = "557662935.6971509"
+            timestampString = "557748961.703051"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "26"
@@ -557,11 +557,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.69722"
+            timestampString = "557748961.703128"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "78"
@@ -570,14 +570,14 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "MVVM_Sample.APIClient.(makeRequest in _7295DCD2A6F6895DC75E6379DE8DF458)(MVVM_Sample.APIRequest, completion: (MVVM_Sample.APIResponse) -&gt; ()) -&gt; ()"
                   moduleName = "MVVM_Sample"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/p10macdev06/Documents/MVVM_Sample/MVVM_Sample/Configuration/APIClient.swift"
-                  timestampString = "557662937.244014"
+                  timestampString = "557673037.284591"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "78"
@@ -585,14 +585,14 @@
                   offsetFromSymbolStart = "29">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 (Alamofire.DataResponse&lt;Any&gt;) -&gt; () in MVVM_Sample.APIClient.(makeRequest in _7295DCD2A6F6895DC75E6379DE8DF458)(MVVM_Sample.APIRequest, completion: (MVVM_Sample.APIResponse) -&gt; ()) -&gt; ()"
                   moduleName = "MVVM_Sample"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/p10macdev06/Documents/MVVM_Sample/MVVM_Sample/Configuration/APIClient.swift"
-                  timestampString = "557662937.2457989"
+                  timestampString = "557673037.286244"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "80"
@@ -605,11 +605,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.69735"
+            timestampString = "557748961.7032861"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "107"
@@ -621,11 +621,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.697477"
+            timestampString = "557748961.703424"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "63"
@@ -637,11 +637,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.6976039"
+            timestampString = "557748961.703668"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "70"
@@ -653,11 +653,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.697728"
+            timestampString = "557748961.703811"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "72"
@@ -669,11 +669,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.69785"
+            timestampString = "557748961.703952"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "80"
@@ -685,11 +685,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.697973"
+            timestampString = "557748961.704092"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "91"
@@ -701,11 +701,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.698097"
+            timestampString = "557748961.7042331"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "83"
@@ -717,11 +717,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.69822"
+            timestampString = "557748961.704373"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "133"
@@ -733,11 +733,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.698342"
+            timestampString = "557748961.704513"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "138"
@@ -749,11 +749,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.698462"
+            timestampString = "557748961.7046551"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "144"
@@ -765,11 +765,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.698584"
+            timestampString = "557748961.704783"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "85"
@@ -781,11 +781,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.6987031"
+            timestampString = "557748961.704915"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "88"
@@ -797,11 +797,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.698822"
+            timestampString = "557748961.705043"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "82"
@@ -810,14 +810,14 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 (Alamofire.DataResponse&lt;Any&gt;) -&gt; () in MVVM_Sample.APIClient.(makeRequest in _7295DCD2A6F6895DC75E6379DE8DF458)(MVVM_Sample.APIRequest, completion: (MVVM_Sample.APIResponse) -&gt; ()) -&gt; ()"
                   moduleName = "MVVM_Sample"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/p10macdev06/Documents/MVVM_Sample/MVVM_Sample/Configuration/APIClient.swift"
-                  timestampString = "557662937.296869"
+                  timestampString = "557673037.337207"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "82"
@@ -825,14 +825,14 @@
                   offsetFromSymbolStart = "154">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 (Swift.Bool) -&gt; () in closure #1 (Alamofire.DataResponse&lt;Any&gt;) -&gt; () in MVVM_Sample.APIClient.(makeRequest in _7295DCD2A6F6895DC75E6379DE8DF458)(MVVM_Sample.APIRequest, completion: (MVVM_Sample.APIResponse) -&gt; ()) -&gt; ()"
                   moduleName = "MVVM_Sample"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/p10macdev06/Documents/MVVM_Sample/MVVM_Sample/Configuration/APIClient.swift"
-                  timestampString = "557662937.2984951"
+                  timestampString = "557673037.33927"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "78"
@@ -845,11 +845,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.698941"
+            timestampString = "557748961.70517"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "84"
@@ -861,11 +861,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.6990581"
+            timestampString = "557748961.705294"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "92"
@@ -877,11 +877,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.699177"
+            timestampString = "557748961.705416"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "95"
@@ -893,11 +893,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.699295"
+            timestampString = "557748961.7055399"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "97"
@@ -909,11 +909,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.699414"
+            timestampString = "557748961.705677"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "96"
@@ -925,11 +925,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.699535"
+            timestampString = "557748961.7058049"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "89"
@@ -941,11 +941,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.699652"
+            timestampString = "557748961.705932"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "134"
@@ -961,7 +961,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.699773"
+            timestampString = "557748961.706059"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "100"
@@ -977,7 +977,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.699891"
+            timestampString = "557748961.706182"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "101"
@@ -993,7 +993,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.700007"
+            timestampString = "557748961.706342"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "103"
@@ -1009,7 +1009,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.700124"
+            timestampString = "557748961.706471"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "104"
@@ -1025,7 +1025,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.7002389"
+            timestampString = "557748961.706596"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "105"
@@ -1037,11 +1037,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.700356"
+            timestampString = "557748961.706719"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "108"
@@ -1053,11 +1053,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.700488"
+            timestampString = "557748961.706843"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "109"
@@ -1069,11 +1069,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.700606"
+            timestampString = "557748961.706978"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "111"
@@ -1085,11 +1085,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.700726"
+            timestampString = "557748961.7071069"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "112"
@@ -1101,11 +1101,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.700844"
+            timestampString = "557748961.707227"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "115"
@@ -1117,11 +1117,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.7009881"
+            timestampString = "557748961.707352"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "118"
@@ -1137,7 +1137,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.70111"
+            timestampString = "557748961.707478"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "129"
@@ -1149,11 +1149,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.70123"
+            timestampString = "557748961.707606"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "125"
@@ -1169,7 +1169,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.701353"
+            timestampString = "557748961.7077301"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "121"
@@ -1181,11 +1181,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.701474"
+            timestampString = "557748961.7078561"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "122"
@@ -1197,11 +1197,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.701593"
+            timestampString = "557748961.707981"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "119"
@@ -1213,11 +1213,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Data/APIResponse.swift"
-            timestampString = "557417189.949976"
+            timestampString = "557748961.7081079"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "19"
@@ -1226,14 +1226,14 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "default argument 0 of MVVM_Sample.APIResponse.init(error: Swift.Optional&lt;MVVM_Sample.APIError&gt;, json: Swift.Optional&lt;SwiftyJSON.JSON&gt;, statusCode: Swift.Optional&lt;MVVM_Sample.APIStatusCode&gt;) -&gt; MVVM_Sample.APIResponse"
                   moduleName = "MVVM_Sample"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/p10macdev06/Documents/MVVM_Sample/MVVM_Sample/Data/APIResponse.swift"
-                  timestampString = "557662937.3676111"
+                  timestampString = "557673037.448351"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "19"
@@ -1241,14 +1241,14 @@
                   offsetFromSymbolStart = "4">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "default argument 1 of MVVM_Sample.APIResponse.init(error: Swift.Optional&lt;MVVM_Sample.APIError&gt;, json: Swift.Optional&lt;SwiftyJSON.JSON&gt;, statusCode: Swift.Optional&lt;MVVM_Sample.APIStatusCode&gt;) -&gt; MVVM_Sample.APIResponse"
                   moduleName = "MVVM_Sample"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/p10macdev06/Documents/MVVM_Sample/MVVM_Sample/Data/APIResponse.swift"
-                  timestampString = "557662937.369239"
+                  timestampString = "557673037.450639"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "19"
@@ -1256,14 +1256,14 @@
                   offsetFromSymbolStart = "4">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "default argument 2 of MVVM_Sample.APIResponse.init(error: Swift.Optional&lt;MVVM_Sample.APIError&gt;, json: Swift.Optional&lt;SwiftyJSON.JSON&gt;, statusCode: Swift.Optional&lt;MVVM_Sample.APIStatusCode&gt;) -&gt; MVVM_Sample.APIResponse"
                   moduleName = "MVVM_Sample"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/p10macdev06/Documents/MVVM_Sample/MVVM_Sample/Data/APIResponse.swift"
-                  timestampString = "557662937.370936"
+                  timestampString = "557673037.452281"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "19"
@@ -1271,14 +1271,14 @@
                   offsetFromSymbolStart = "4">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "MVVM_Sample.APIResponse.__allocating_init(error: Swift.Optional&lt;MVVM_Sample.APIError&gt;, json: Swift.Optional&lt;SwiftyJSON.JSON&gt;, statusCode: Swift.Optional&lt;MVVM_Sample.APIStatusCode&gt;) -&gt; MVVM_Sample.APIResponse"
                   moduleName = "MVVM_Sample"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/p10macdev06/Documents/MVVM_Sample/MVVM_Sample/Data/APIResponse.swift"
-                  timestampString = "557662937.372746"
+                  timestampString = "557673037.4539011"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -1286,14 +1286,14 @@
                   offsetFromSymbolStart = "12">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "MVVM_Sample.APIResponse.init(error: Swift.Optional&lt;MVVM_Sample.APIError&gt;, json: Swift.Optional&lt;SwiftyJSON.JSON&gt;, statusCode: Swift.Optional&lt;MVVM_Sample.APIStatusCode&gt;) -&gt; MVVM_Sample.APIResponse"
                   moduleName = "MVVM_Sample"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/p10macdev06/Documents/MVVM_Sample/MVVM_Sample/Data/APIResponse.swift"
-                  timestampString = "557662937.374504"
+                  timestampString = "557673037.45573"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "20"
@@ -1306,11 +1306,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Data/APIResponse.swift"
-            timestampString = "557417189.95023"
+            timestampString = "557748961.708364"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "17"
@@ -1322,11 +1322,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Data/APIResponse.swift"
-            timestampString = "557417189.950284"
+            timestampString = "557748961.70842"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "16"
@@ -1338,11 +1338,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Data/APIResponse.swift"
-            timestampString = "557417189.950335"
+            timestampString = "557748961.708472"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "28"
@@ -1358,7 +1358,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Data/APIRequest.swift"
-            timestampString = "557662935.701807"
+            timestampString = "557748961.708527"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "29"
@@ -1374,7 +1374,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Data/APIRequest.swift"
-            timestampString = "557662935.702073"
+            timestampString = "557748961.708717"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "37"
@@ -1390,7 +1390,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Data/APIRequest.swift"
-            timestampString = "557662935.702134"
+            timestampString = "557748961.708778"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "49"
@@ -1402,11 +1402,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Data/APIRequest.swift"
-            timestampString = "557662935.702191"
+            timestampString = "557748961.708835"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "25"
@@ -1418,11 +1418,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Data/APIRequest.swift"
-            timestampString = "557662935.702246"
+            timestampString = "557748961.70889"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "19"
@@ -1546,11 +1546,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Data/APIStatusCode.swift"
-            timestampString = "557662935.702602"
+            timestampString = "557748961.709141"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "29"
@@ -1562,11 +1562,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Data/APIStatusCode.swift"
-            timestampString = "557662935.702794"
+            timestampString = "557748961.709323"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "44"
@@ -1578,11 +1578,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Data/APIStatusCode.swift"
-            timestampString = "557662935.702849"
+            timestampString = "557748961.70938"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "25"
@@ -1674,15 +1674,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Data/Services/AuthenticationService.swift"
-            timestampString = "557662935.703096"
+            timestampString = "557748961.709561"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "103"
-            endingLineNumber = "103"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
             landmarkName = "makeTokenRequest(parameters:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1694,11 +1694,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Data/Services/AuthenticationService.swift"
-            timestampString = "557662935.703591"
+            timestampString = "557748961.709656"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "73"
-            endingLineNumber = "73"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
             landmarkName = "resetPassword(email:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1710,11 +1710,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Data/Services/AuthenticationService.swift"
-            timestampString = "557662935.703945"
+            timestampString = "557748961.709744"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
             landmarkName = "refreshToken(refreshToken:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1726,11 +1726,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Data/Services/AuthenticationService.swift"
-            timestampString = "557662935.70427"
+            timestampString = "557748961.709829"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
             landmarkName = "requestToken(email:password:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1738,11 +1738,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/App/App.swift"
-            timestampString = "557662935.7046061"
+            timestampString = "557748961.7099169"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "26"
@@ -1751,14 +1751,14 @@
             landmarkType = "14">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "globalinit_33_18C7088E998A98A553234FC16EDF83AF_func0"
                   moduleName = "MVVM_Sample"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/p10macdev06/Documents/MVVM_Sample/MVVM_Sample/App/App.swift"
-                  timestampString = "557662937.462865"
+                  timestampString = "557673037.556366"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "26"
@@ -1766,14 +1766,14 @@
                   offsetFromSymbolStart = "4">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "MVVM_Sample.App.environment.unsafeMutableAddressor : MVVM_Sample.App.Environment"
                   moduleName = "MVVM_Sample"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/p10macdev06/Documents/MVVM_Sample/MVVM_Sample/App/App.swift"
-                  timestampString = "557662937.464523"
+                  timestampString = "557673037.5580111"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "26"
@@ -1781,14 +1781,14 @@
                   offsetFromSymbolStart = "4">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "static MVVM_Sample.App.environment.getter : MVVM_Sample.App.Environment"
                   moduleName = "MVVM_Sample"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/p10macdev06/Documents/MVVM_Sample/MVVM_Sample/App/App.swift"
-                  timestampString = "557662937.466177"
+                  timestampString = "557673037.559751"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "26"
@@ -1801,11 +1801,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.704675"
+            timestampString = "557748961.709977"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "19"
@@ -1814,14 +1814,14 @@
             landmarkType = "3">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "MVVM_Sample.APIClient.authenticationProvider.getter : MVVM_Sample.APIAuthenticationProvider"
                   moduleName = "MVVM_Sample"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/p10macdev06/Documents/MVVM_Sample/MVVM_Sample/Configuration/APIClient.swift"
-                  timestampString = "557662937.471875"
+                  timestampString = "557673037.565171"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "19"
@@ -1829,14 +1829,14 @@
                   offsetFromSymbolStart = "80">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "MVVM_Sample.APIClient.authenticationProvider.setter : MVVM_Sample.APIAuthenticationProvider"
                   moduleName = "MVVM_Sample"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/p10macdev06/Documents/MVVM_Sample/MVVM_Sample/Configuration/APIClient.swift"
-                  timestampString = "557662937.47356"
+                  timestampString = "557673037.566758"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "19"
@@ -1849,11 +1849,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.7048039"
+            timestampString = "557748961.710096"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "22"
@@ -1881,11 +1881,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Data/APIStatusCode.swift"
-            timestampString = "557662935.704954"
+            timestampString = "557748961.710268"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "22"
@@ -1897,11 +1897,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIConfiguration.swift"
-            timestampString = "557662935.705011"
+            timestampString = "557748961.7103209"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "50"
@@ -1917,7 +1917,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Data/Services/AuthenticationService.swift"
-            timestampString = "557662935.705075"
+            timestampString = "557748961.710398"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "16"
@@ -1929,11 +1929,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.7053601"
+            timestampString = "557748961.71051"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "50"
@@ -1945,11 +1945,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIClient.swift"
-            timestampString = "557662935.705446"
+            timestampString = "557748961.7106"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "49"
@@ -1961,11 +1961,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/Configuration/APIConfiguration.swift"
-            timestampString = "557662935.705529"
+            timestampString = "557748961.710688"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "54"
@@ -1981,7 +1981,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/ViewCotroller/ViewController.swift"
-            timestampString = "557662935.705583"
+            timestampString = "557748961.710742"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "37"
@@ -1993,16 +1993,320 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVVM_Sample/New Group/User.swift"
-            timestampString = "557664880.977379"
+            timestampString = "557748961.71079"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "init(json:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVM_Sample/Managers/AuthenticationManager.swift"
+            timestampString = "557748961.710986"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "login(email:password:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVM_Sample/New Group1/LoginViewModel.swift"
+            timestampString = "557748961.711309"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "GetUserLogin(emailTxtField:passwordTextField:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVM_Sample/New Group1/LoginViewModel.swift"
+            timestampString = "557748961.711494"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "23"
             endingLineNumber = "23"
+            landmarkName = "GetUserLogin(emailTxtField:passwordTextField:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVM_Sample/Data/Services/AuthenticationService.swift"
+            timestampString = "557748961.711543"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "logIn(name:password:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVM_Sample/New Group/User.swift"
+            timestampString = "557748961.711597"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "createWithJSON(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVM_Sample/New Group/User.swift"
+            timestampString = "557748961.711641"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "createWithJSON(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVM_Sample/New Group/User.swift"
+            timestampString = "557748961.7116849"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
             landmarkName = "init(json:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVM_Sample/New Group/User.swift"
+            timestampString = "557748961.711727"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "init(json:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVM_Sample.User.__allocating_init(json: SwiftyJSON.JSON) -&gt; MVVM_Sample.User"
+                  moduleName = "MVVM_Sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/p10macdev06/Documents/MVVM_Sample/MVVM_Sample/New%20Group/User.swift"
+                  timestampString = "557742366.814597"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVM_Sample.User.init(json: SwiftyJSON.JSON) -&gt; MVVM_Sample.User"
+                  moduleName = "MVVM_Sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/p10macdev06/Documents/MVVM_Sample/MVVM_Sample/New%20Group/User.swift"
+                  timestampString = "557742366.817417"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "71">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVM_Sample/Configuration/APIClient.swift"
+            timestampString = "557748961.7117701"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "handleResponse(_:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVM_Sample/Managers/AuthenticationManager.swift"
+            timestampString = "557748961.711818"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "authenticatedUser"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVM_Sample/Managers/AuthenticationManager.swift"
+            timestampString = "557748961.712036"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "authenticatedUser"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVM_Sample/Managers/AuthenticationManager.swift"
+            timestampString = "557748961.712302"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "authenticatedUser"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVM_Sample/Managers/AuthenticationManager.swift"
+            timestampString = "557748961.712523"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "authenticatedUserId"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVM_Sample/Managers/AuthenticationManager.swift"
+            timestampString = "557748961.7127351"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "authenticatedUserId"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVM_Sample/Managers/AuthenticationManager.swift"
+            timestampString = "557748961.712968"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "login(email:password:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVM_Sample/Managers/AuthenticationManager.swift"
+            timestampString = "557748961.713213"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "login(email:password:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVM_Sample/Managers/AuthenticationManager.swift"
+            timestampString = "557748961.713429"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "login(email:password:completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -15,7 +15,14 @@ class AuthenticationManager{
     let authenticationService = AuthenticationService()
     
     
-    var authenticatedUserId: String? = "1"
+    var authenticatedUserId: String? {
+        get{
+            return UserDefaults.standard.string(forKey: "authenticatedUser")
+        }
+        set{
+            return UserDefaults.standard.set(newValue, forKey: "authenticatedUser")
+        }
+    }
     
     //        {
     //        get {
@@ -72,13 +79,14 @@ class AuthenticationManager{
 
         
         authenticationService.logIn(name: email, password: password) {
-            error in
+            error,user  in
                 if let err = error{
                     return completion(.apiError(err),nil)
                 }
                 
-            
-            completion(nil, nil)
+            self.authenticatedUser = user
+            print(UserDefaults.standard.string(forKey: "authenticatedUser") ?? "1")
+            completion(nil, user)
             
             
         }

@@ -11,7 +11,7 @@ import Foundation
 class AuthenticationService: APIService {
     
     
-    func logIn(name: String, password: String, completion: @escaping (APIError?) -> Void) {
+    func logIn(name: String, password: String, completion: @escaping (APIError?, User?) -> Void) {
         
         let endpoint = "/login?include=user"
         
@@ -24,10 +24,13 @@ class AuthenticationService: APIService {
         
         apiClient.request(authorize: false, method: .post, endpoint: endpoint, parameters: parameters) { response in
             if let err = response.error {
-                return completion(err)
+                return completion(err, nil)
             }
             
-            completion(nil)
+            let user = User.createWithJSON(response.json)
+
+            
+            completion(nil,user)
         }
         
         

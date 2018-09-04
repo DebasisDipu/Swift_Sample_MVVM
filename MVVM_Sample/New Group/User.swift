@@ -15,19 +15,17 @@ class User : APIModel, Equatable {
     
     
     private(set) var id: String
-    private(set) var ttl: Int
     private(set) var userId: String
     
     
     init(json : JSON) {
         id = json["id"].stringValue
-        ttl = json["ttl"].intValue
         userId = json["userId"].stringValue
     }
     
     
     static func createWithJSON(_ json: JSON) -> User {
-        let type = json["type"]
+//        let type = json["type"]
         
         //        if (type == "client") {
         //            return Client(json: json)
