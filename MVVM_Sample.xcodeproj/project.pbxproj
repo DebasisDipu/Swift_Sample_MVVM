@@ -38,6 +38,7 @@
 		DC9AC29221303582006CA635 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9AC29121303582006CA635 /* User.swift */; };
 		DC9AC294213035A6006CA635 /* APIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9AC293213035A6006CA635 /* APIModel.swift */; };
 		DC9AC298213042FA006CA635 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9AC297213042FA006CA635 /* LoginViewModel.swift */; };
+		DCADF68A213EAAE9003C2A9C /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCADF689213EAAE9003C2A9C /* KeychainManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +115,7 @@
 		DC9AC29121303582006CA635 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		DC9AC293213035A6006CA635 /* APIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModel.swift; sourceTree = "<group>"; };
 		DC9AC297213042FA006CA635 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		DCADF689213EAAE9003C2A9C /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
 		E2513505EF57E283C2A4F4E0 /* Pods-MVVM_Sample.debug(qa).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM_Sample.debug(qa).xcconfig"; path = "Pods/Target Support Files/Pods-MVVM_Sample/Pods-MVVM_Sample.debug(qa).xcconfig"; sourceTree = "<group>"; };
 		F93B8A2603EE2190ECFB1199 /* Pods-MVVM_SampleTests.debug(uat).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM_SampleTests.debug(uat).xcconfig"; path = "Pods/Target Support Files/Pods-MVVM_SampleTests/Pods-MVVM_SampleTests.debug(uat).xcconfig"; sourceTree = "<group>"; };
 		FBBBEDB9FD8406C512AC7107 /* Pods-MVVM_SampleUITests.release(qa).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM_SampleUITests.release(qa).xcconfig"; path = "Pods/Target Support Files/Pods-MVVM_SampleUITests/Pods-MVVM_SampleUITests.release(qa).xcconfig"; sourceTree = "<group>"; };
@@ -211,12 +213,12 @@
 		DC71E18C211B092600CBBD29 /* MVVM_Sample */ = {
 			isa = PBXGroup;
 			children = (
+				DC822CE12121C5250032B2EA /* App */,
+				DC9AC270213014A6006CA635 /* Data */,
+				DC9AC28E21303542006CA635 /* Model */,
 				DC9AC29621303B47006CA635 /* ViewCotroller */,
 				DC9AC29521303AF0006CA635 /* ViewModel */,
-				DC9AC28E21303542006CA635 /* Model */,
 				DC9AC289213034D3006CA635 /* Managers */,
-				DC9AC270213014A6006CA635 /* Data */,
-				DC822CE12121C5250032B2EA /* App */,
 				DC9AC26C213013EA006CA635 /* Configuration */,
 				DC71E191211B092600CBBD29 /* Main.storyboard */,
 				DC71E197211B092A00CBBD29 /* Assets.xcassets */,
@@ -294,6 +296,7 @@
 			children = (
 				DC9AC28A213034F4006CA635 /* AuthenticationManager.swift */,
 				DC9AC28C21303513006CA635 /* APIManager.swift */,
+				DCADF689213EAAE9003C2A9C /* KeychainManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -519,11 +522,13 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MVVM_Sample/Pods-MVVM_Sample-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Locksmith/Locksmith.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Locksmith.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -545,6 +550,7 @@
 				DC9AC2852130348B006CA635 /* AuthenticationService.swift in Sources */,
 				DC9AC28B213034F4006CA635 /* AuthenticationManager.swift in Sources */,
 				DC71E190211B092600CBBD29 /* ViewController.swift in Sources */,
+				DCADF68A213EAAE9003C2A9C /* KeychainManager.swift in Sources */,
 				DC9AC26E21301410006CA635 /* APIConfiguration.swift in Sources */,
 				DC9AC27A213019E7006CA635 /* APIMethod.swift in Sources */,
 				DC9AC27821301992006CA635 /* APIError.swift in Sources */,

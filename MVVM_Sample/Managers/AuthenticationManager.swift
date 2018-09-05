@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Locksmith
 
 class AuthenticationManager{
     
@@ -23,38 +24,35 @@ class AuthenticationManager{
             return UserDefaults.standard.set(newValue, forKey: "authenticatedUser")
         }
     }
-    
-    //        {
-    //        get {
-    //            return "1"
-    //           // return UserDefaultsManager.get(key: "authenticatedUser")
-    //        }
-    //        set {
-    //            return 1
-    //
-    ////            UserDefaultsManager.set(key: "authenticatedUser", value: newValue)
-    //        }
-    //    }
+  
     
     var authenticatedUser: User? {
         didSet {
-            authenticatedUserId = authenticatedUser?.id
+            authenticatedUserId = authenticatedUser?.userId
         }
     }
     //
     //    var isAuthenticated: Bool {
     //        return authenticatedUserId != nil && authenticatedUserId != ""
     //    }
-    //
-    //    var accessToken: String? {
-    //        get {
-    //            return KeychainManager.getData(userId: authenticatedUserId, key: "accessToken") as? String
-    //        }
-    //        set {
-    //            KeychainManager.saveData(userId: authenticatedUserId, key: "accessToken", value: (newValue == nil) ? "" : newValue!)
-    //        }
-    //    }
-    //
+
+    var accessToken: String? {
+        get{
+            return KeychainManager.getData(userId: authenticatedUserId, key: "accessToken") as? String
+        }
+        set{
+            KeychainManager.saveData(userId: authenticatedUserId, key: "accessToken", value: (newValue == nil) ? "" : newValue!)
+        }
+        
+        
+//            get {
+//                return KeychainManager.getData(userId: authenticatedUserId, key: "accessToken") as? String
+//            }
+//            set {
+//                KeychainManager.saveData(userId: authenticatedUserId, key: "accessToken", value: (newValue == nil) ? "" : newValue!)
+//            }
+        }
+
     //    var refreshToken: String? {
     //        get {
     //            return KeychainManager.getData(userId: authenticatedUserId, key: "refreshToken") as? String
@@ -85,7 +83,9 @@ class AuthenticationManager{
                 }
                 
             self.authenticatedUser = user
+            self.accessToken = user?.id
             print(UserDefaults.standard.string(forKey: "authenticatedUser") ?? "1")
+            print(KeychainManager.getData(userId: self.authenticatedUserId, key: "accessToken") as? String ?? "")
             completion(nil, user)
             
             
