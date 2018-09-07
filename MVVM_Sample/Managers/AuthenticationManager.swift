@@ -37,20 +37,12 @@ class AuthenticationManager{
     //    }
 
     var accessToken: String? {
-        get{
-            return KeychainManager.getData(userId: authenticatedUserId, key: "accessToken") as? String
-        }
-        set{
-            KeychainManager.saveData(userId: authenticatedUserId, key: "accessToken", value: (newValue == nil) ? "" : newValue!)
-        }
-        
-        
-//            get {
-//                return KeychainManager.getData(userId: authenticatedUserId, key: "accessToken") as? String
-//            }
-//            set {
-//                KeychainManager.saveData(userId: authenticatedUserId, key: "accessToken", value: (newValue == nil) ? "" : newValue!)
-//            }
+            get{
+                return KeychainManager.getData(userId: authenticatedUserId, key: "accessToken") as? String
+            }
+            set{
+                KeychainManager.saveData(userId: authenticatedUserId, key: "accessToken", value: (newValue == nil) ? "" : newValue!)
+            }
         }
 
     //    var refreshToken: String? {
@@ -72,21 +64,19 @@ class AuthenticationManager{
     //    }
     
     
-    func login(email: String, password: String, completion: @escaping (AppError?, User?) -> Void) {
-        
-
+    func login(email: String, password: String, completion: @escaping (AppError?, User?, UserDataModel?) -> Void) {
         
         authenticationService.logIn(name: email, password: password) {
-            error,user  in
+            error,user, sample  in
                 if let err = error{
-                    return completion(.apiError(err),nil)
+                    return completion(.apiError(err),nil, nil)
                 }
                 
             self.authenticatedUser = user
             self.accessToken = user?.id
             print(UserDefaults.standard.string(forKey: "authenticatedUser") ?? "1")
             print(KeychainManager.getData(userId: self.authenticatedUserId, key: "accessToken") as? String ?? "")
-            completion(nil, user)
+            completion(nil, user, sample)
             
             
         }

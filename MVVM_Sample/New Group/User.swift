@@ -12,11 +12,8 @@ import SwiftyJSON
 
 class User : APIModel, Equatable {
     
-    
-    
     private(set) var id: String
     private(set) var userId: String
-    
     
     init(json : JSON) {
         id = json["id"].stringValue
@@ -25,17 +22,9 @@ class User : APIModel, Equatable {
     
     
     static func createWithJSON(_ json: JSON) -> User {
-//        let type = json["type"]
         
-        //        if (type == "client") {
-        //            return Client(json: json)
-        //        }
-        //        else if (type == "barber") {
-        //            return Barber(json: json)
-        //        }
-        //        else {
         return User(json: json)
-        //        }
+        
     }
     
     static func getUser(id: String, completion: @escaping (APIError?, User?) -> Void) {

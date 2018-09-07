@@ -12,16 +12,14 @@ import Foundation
 
 class LoginViewModel {
     
-    func GetUserLogin(emailTxtField: String, passwordTextField: String)    {
+    func GetUserLogin(emailTxtField: String, passwordTextField: String, completion: @escaping(AppError?, User?, UserDataModel?) -> Void )   {
         
-        AuthenticationManager.sharedInstance.login(email: emailTxtField , password: passwordTextField ) { error, response  in
+        AuthenticationManager.sharedInstance.login(email: emailTxtField , password: passwordTextField ) { error, response, sample  in
             
-            
-            if let err = error {
-                print(err)
-                return
+            if let er = error {
+                return completion(er,nil, nil)
             }
-            
+            completion(nil,response, sample)
             
         }
     }

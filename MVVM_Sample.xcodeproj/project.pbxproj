@@ -34,11 +34,12 @@
 		DC9AC2852130348B006CA635 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9AC2842130348B006CA635 /* AuthenticationService.swift */; };
 		DC9AC28B213034F4006CA635 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9AC28A213034F4006CA635 /* AuthenticationManager.swift */; };
 		DC9AC28D21303513006CA635 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9AC28C21303513006CA635 /* APIManager.swift */; };
-		DC9AC29021303569006CA635 /* SampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9AC28F21303569006CA635 /* SampleModel.swift */; };
+		DC9AC29021303569006CA635 /* UserDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9AC28F21303569006CA635 /* UserDataModel.swift */; };
 		DC9AC29221303582006CA635 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9AC29121303582006CA635 /* User.swift */; };
 		DC9AC294213035A6006CA635 /* APIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9AC293213035A6006CA635 /* APIModel.swift */; };
 		DC9AC298213042FA006CA635 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9AC297213042FA006CA635 /* LoginViewModel.swift */; };
 		DCADF68A213EAAE9003C2A9C /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCADF689213EAAE9003C2A9C /* KeychainManager.swift */; };
+		DCADF68C213FF54E003C2A9C /* ProfileImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCADF68B213FF54E003C2A9C /* ProfileImageModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,11 +112,12 @@
 		DC9AC2842130348B006CA635 /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
 		DC9AC28A213034F4006CA635 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 		DC9AC28C21303513006CA635 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
-		DC9AC28F21303569006CA635 /* SampleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleModel.swift; sourceTree = "<group>"; };
+		DC9AC28F21303569006CA635 /* UserDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataModel.swift; sourceTree = "<group>"; };
 		DC9AC29121303582006CA635 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		DC9AC293213035A6006CA635 /* APIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModel.swift; sourceTree = "<group>"; };
 		DC9AC297213042FA006CA635 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		DCADF689213EAAE9003C2A9C /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		DCADF68B213FF54E003C2A9C /* ProfileImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageModel.swift; sourceTree = "<group>"; };
 		E2513505EF57E283C2A4F4E0 /* Pods-MVVM_Sample.debug(qa).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM_Sample.debug(qa).xcconfig"; path = "Pods/Target Support Files/Pods-MVVM_Sample/Pods-MVVM_Sample.debug(qa).xcconfig"; sourceTree = "<group>"; };
 		F93B8A2603EE2190ECFB1199 /* Pods-MVVM_SampleTests.debug(uat).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM_SampleTests.debug(uat).xcconfig"; path = "Pods/Target Support Files/Pods-MVVM_SampleTests/Pods-MVVM_SampleTests.debug(uat).xcconfig"; sourceTree = "<group>"; };
 		FBBBEDB9FD8406C512AC7107 /* Pods-MVVM_SampleUITests.release(qa).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM_SampleUITests.release(qa).xcconfig"; path = "Pods/Target Support Files/Pods-MVVM_SampleUITests/Pods-MVVM_SampleUITests.release(qa).xcconfig"; sourceTree = "<group>"; };
@@ -304,9 +306,10 @@
 		DC9AC28E21303542006CA635 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				DC9AC28F21303569006CA635 /* SampleModel.swift */,
+				DC9AC28F21303569006CA635 /* UserDataModel.swift */,
 				DC9AC29121303582006CA635 /* User.swift */,
 				DC9AC293213035A6006CA635 /* APIModel.swift */,
+				DCADF68B213FF54E003C2A9C /* ProfileImageModel.swift */,
 			);
 			name = Model;
 			path = "New Group";
@@ -552,6 +555,7 @@
 				DC71E190211B092600CBBD29 /* ViewController.swift in Sources */,
 				DCADF68A213EAAE9003C2A9C /* KeychainManager.swift in Sources */,
 				DC9AC26E21301410006CA635 /* APIConfiguration.swift in Sources */,
+				DCADF68C213FF54E003C2A9C /* ProfileImageModel.swift in Sources */,
 				DC9AC27A213019E7006CA635 /* APIMethod.swift in Sources */,
 				DC9AC27821301992006CA635 /* APIError.swift in Sources */,
 				DC9AC29221303582006CA635 /* User.swift in Sources */,
@@ -565,7 +569,7 @@
 				DC9AC267213010F0006CA635 /* App.swift in Sources */,
 				DC9AC272213014BF006CA635 /* APIAuthenticationProvider.swift in Sources */,
 				DC71E18E211B092600CBBD29 /* AppDelegate.swift in Sources */,
-				DC9AC29021303569006CA635 /* SampleModel.swift in Sources */,
+				DC9AC29021303569006CA635 /* UserDataModel.swift in Sources */,
 				DC9AC26B213013B9006CA635 /* AppError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

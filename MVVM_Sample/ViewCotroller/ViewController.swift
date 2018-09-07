@@ -32,9 +32,16 @@ class ViewController: UIViewController {
 
     @IBAction func DidTapLoginButton(_ sender: Any) {
         
-        let loginDetails = ViewModel.GetUserLogin(emailTxtField: emailTxtField.text ?? "", passwordTextField: passwordTextField.text ?? "")
+        ViewModel.GetUserLogin(emailTxtField: emailTxtField.text ?? "", passwordTextField: passwordTextField.text ?? "") { (error, userResponse, sample) in
+            if error != nil{
+                return
+            }
+            return
+        }
+
+        
+//        let loginDetails = ViewModel.GetUserLogin(emailTxtField: emailTxtField.text ?? "", passwordTextField: passwordTextField.text ?? "")
        
-            print(loginDetails)
         
 //            self.loginViewModel.SendLoginDetails(email: self.emailTextField.text ?? "" , pass: self.passwordTextView.text ?? "")
 //

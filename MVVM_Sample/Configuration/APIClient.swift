@@ -87,7 +87,7 @@ class APIClient {
                     
                     self.request(authorize: true, reauthorize: false, method: request.method, url: request.url, parameters: request.parameters, completion: completion)
                 }
-            }
+            }   
             else if (self.needsUnauthorization(request: request, response: response)) {
                 self.authenticationProvider.unauthorize()
             }
