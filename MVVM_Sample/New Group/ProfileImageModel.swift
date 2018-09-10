@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import SwiftyJSON
 
 
 class ProfileImageModel{
@@ -14,6 +15,12 @@ class ProfileImageModel{
     private(set) var imageUrl: String?
     private(set) var createdDate: String?
     private(set) var photoCredits: String?
+    
+    init(json: JSON) {
+        self.imageUrl = json["profilePicture"].dictionaryValue["imageUrl"]?.stringValue ?? ""
+        self.createdDate = json["profilePicture"].dictionaryValue["createdDate"]?.stringValue ?? ""
+        self.photoCredits = json["profilePicture"].dictionaryValue["photoCredits"]?.stringValue ?? ""
+    }
     
     init(imageUrl: String, createdDate: String, PhotoCredits: String){
         self.imageUrl = imageUrl

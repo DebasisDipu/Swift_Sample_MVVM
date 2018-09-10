@@ -28,6 +28,7 @@ class AuthenticationService: APIService {
             }
             
             let user = User.createWithJSON(response.json)
+            
             let sampleModel = UserDataModel(json: response.json["user"])
 
             

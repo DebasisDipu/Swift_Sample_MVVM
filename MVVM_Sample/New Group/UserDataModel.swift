@@ -13,8 +13,8 @@ class UserDataModel: APIModel {
         
     private(set) var firstName: String?
     private(set) var favRestPublished : Bool
-//    private(set) var profilePicture: ProfileImageModel?
-    
+    private(set) var profilePicture: ProfileImageModel?
+    private(set) var id: String?
     
 //    init?(string: String) {
 //        self.init(string: string.lowercased())
@@ -23,7 +23,8 @@ class UserDataModel: APIModel {
     init(json: JSON) {
         self.firstName = json["firstName"].stringValue
         self.favRestPublished = json["favRestPublished"].boolValue
-//        self.profilePicture = json["profilePicture"].dictionaryValue["imageUrl"]
+        self.profilePicture = ProfileImageModel(json: json)
+        self.id = json["id"].stringValue
 
     }
     

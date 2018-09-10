@@ -15,6 +15,10 @@ class User : APIModel, Equatable {
     private(set) var id: String
     private(set) var userId: String
     
+    public static func == (lhs: User, rhs: User) -> Bool {
+        return lhs.id == rhs.id
+    }
+    
     init(json : JSON) {
         id = json["id"].stringValue
         userId = json["userId"].stringValue
@@ -42,6 +46,4 @@ class User : APIModel, Equatable {
     
     
 }
-func == (lhs: User, rhs: User) -> Bool {
-    return lhs.id == rhs.id
-}
+
