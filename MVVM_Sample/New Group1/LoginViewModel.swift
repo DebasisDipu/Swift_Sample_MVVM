@@ -11,7 +11,7 @@ import Foundation
 
 
 class LoginViewModel {
-    
+
     func GetUserLogin(emailTxtField: String, passwordTextField: String, completion: @escaping(AppError?, User?, UserDataModel?) -> Void )   {
         
         AuthenticationManager.sharedInstance.login(email: emailTxtField , password: passwordTextField ) { error, response, sample  in
@@ -23,6 +23,6 @@ class LoginViewModel {
             
         }
     }
-    
-    
+   
 }
+

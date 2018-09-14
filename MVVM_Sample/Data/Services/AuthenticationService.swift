@@ -31,13 +31,10 @@ class AuthenticationService: APIService {
             
             let sampleModel = UserDataModel(json: response.json["user"])
 
-            
             completion(nil,user, sampleModel)
         }
         
-        
     }
-    
     
     
     func requestToken(email: String, password: String, completion: @escaping (APIError?, User?, String?, String?, Int?) -> Void) {

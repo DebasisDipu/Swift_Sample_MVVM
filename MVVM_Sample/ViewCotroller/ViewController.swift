@@ -11,18 +11,19 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    
     @IBOutlet weak var emailTxtField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     
-    var ViewModel = LoginViewModel()
+    
+    @IBOutlet weak var companyLbl: UILabel!
+   private var ViewModel = LoginViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         let server_url = Environment().configuration(PlistKey.ServerURL)
         print(server_url)
-        
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
@@ -36,21 +37,22 @@ class ViewController: UIViewController {
             if error != nil{
                 return
             }
-            return
+            
+            let nextVC = self.storyboard?.instantiateViewController(withIdentifier: "SelectedCompanyViewController") as! SelectedCompanyViewController
+            nextVC.companyDelegate = self
+            self.navigationController?.pushViewController(nextVC, animated: true)
+            
         }
 
-        
-//        let loginDetails = ViewModel.GetUserLogin(emailTxtField: emailTxtField.text ?? "", passwordTextField: passwordTextField.text ?? "")
-       
-        
-//            self.loginViewModel.SendLoginDetails(email: self.emailTextField.text ?? "" , pass: self.passwordTextView.text ?? "")
-//
-            
-            
-            
-            
-    
     }
     
+}
+extension ViewController: SelectedCompanyDelegate {
+    
+    func DidSelectButton(_ company: String) {
+
+            companyLbl.text = company
+
+    }
 }
 

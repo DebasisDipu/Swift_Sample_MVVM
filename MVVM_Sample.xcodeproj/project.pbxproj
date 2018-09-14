@@ -18,6 +18,7 @@
 		DC71E19B211B092A00CBBD29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC71E199211B092A00CBBD29 /* LaunchScreen.storyboard */; };
 		DC71E1A6211B092A00CBBD29 /* MVVM_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC71E1A5211B092A00CBBD29 /* MVVM_SampleTests.swift */; };
 		DC71E1B1211B092B00CBBD29 /* MVVM_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC71E1B0211B092B00CBBD29 /* MVVM_SampleUITests.swift */; };
+		DC8218502147DA9E002F59A2 /* SelectedCompanyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC82184F2147DA9E002F59A2 /* SelectedCompanyViewController.swift */; };
 		DC822CFC212305220032B2EA /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC822CFB212305220032B2EA /* Configuration.swift */; };
 		DC9AC267213010F0006CA635 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9AC266213010F0006CA635 /* App.swift */; };
 		DC9AC26921301322006CA635 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9AC26821301322006CA635 /* AppConstants.swift */; };
@@ -95,6 +96,7 @@
 		DC71E1B0211B092B00CBBD29 /* MVVM_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_SampleUITests.swift; sourceTree = "<group>"; };
 		DC71E1B2211B092B00CBBD29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC7C67EB212C48DB0038CA2E /* Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
+		DC82184F2147DA9E002F59A2 /* SelectedCompanyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedCompanyViewController.swift; sourceTree = "<group>"; };
 		DC822CFA2121C7E30032B2EA /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
 		DC822CFB212305220032B2EA /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		DC9AC266213010F0006CA635 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
@@ -328,6 +330,7 @@
 			isa = PBXGroup;
 			children = (
 				DC71E18F211B092600CBBD29 /* ViewController.swift */,
+				DC82184F2147DA9E002F59A2 /* SelectedCompanyViewController.swift */,
 			);
 			path = ViewCotroller;
 			sourceTree = "<group>";
@@ -563,6 +566,7 @@
 				DC9AC28021301A69006CA635 /* APIStatusCode.swift in Sources */,
 				DC9AC276213018CC006CA635 /* APIClient.swift in Sources */,
 				DC9AC28D21303513006CA635 /* APIManager.swift in Sources */,
+				DC8218502147DA9E002F59A2 /* SelectedCompanyViewController.swift in Sources */,
 				DC9AC27E21301A47006CA635 /* APIResponse.swift in Sources */,
 				DC9AC27C21301A07006CA635 /* APIRequest.swift in Sources */,
 				DC822CFC212305220032B2EA /* Configuration.swift in Sources */,
