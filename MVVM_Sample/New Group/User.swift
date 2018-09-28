@@ -45,5 +45,30 @@ class User : APIModel, Equatable {
     }
     
     
+//    func logIn(name: String, password: String, completion: @escaping (APIError?, User?, UserDataModel?   ) -> Void) {
+//
+//        let endpoint = "/login?include=user"
+//
+//        var parameters: APIRequestParameters = [
+//            "email": name,
+//            "password": password,
+//            ]
+//
+//        parameters = addAuthorizationParameters(parameters)
+//
+//        apiClient.request(authorize: false, method: .post, endpoint: endpoint, parameters: parameters) { response in
+//            if let err = response.error {
+//                return completion(err, nil, nil)
+//            }
+//
+//            let user = User.createWithJSON(response.json)
+//
+//            let sampleModel = UserDataModel(json: response.json["user"])
+//
+//            completion(nil,user, sampleModel)
+//        }
+//
+//    }
+    
 }
 

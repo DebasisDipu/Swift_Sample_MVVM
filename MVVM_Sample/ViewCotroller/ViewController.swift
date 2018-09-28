@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var emailTxtField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     
+    var user : User?
     
     @IBOutlet weak var companyLbl: UILabel!
    private var ViewModel = LoginViewModel()
@@ -24,6 +25,13 @@ class ViewController: UIViewController {
         
         let server_url = Environment().configuration(PlistKey.ServerURL)
         print(server_url)
+        
+        if let user = user?.id{
+            
+            
+        }
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,6 +40,9 @@ class ViewController: UIViewController {
     }
 
     @IBAction func DidTapLoginButton(_ sender: Any) {
+        
+        
+        
         
         ViewModel.GetUserLogin(emailTxtField: emailTxtField.text ?? "", passwordTextField: passwordTextField.text ?? "") { (error, userResponse, sample) in
             if error != nil{
